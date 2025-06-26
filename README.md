@@ -21,11 +21,11 @@ It uses an Encoder-Decoder architecture with LSTM layers to translate text from 
 pip install -r requirements.txt
 python main.py
 
-Run the project: python main.py
+*** Run the project: python main.py ***
 
-Dependencies
+📦 Dependencies; 
 Python 3.8+
-TensorFlow veya PyTorch (kullandığın framework'e göre)
+TensorFlow veya PyTorch (depending on your implementation)
 NumPy
 scikit-learn
 tqdm
