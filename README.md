@@ -1,17 +1,19 @@
 # seq2seq-translator
 
-Bu proje, Python ile geliştirilmiş temel bir Sequence-to-Sequence (seq2seq) çeviri modelidir. Model, bir dili başka bir dile çevirebilmek için Encoder-Decoder yapısını ve LSTM katmanlarını kullanır.
+This project is a basic Sequence-to-Sequence (seq2seq) translation model implemented in Python.  
+It uses an Encoder-Decoder architecture with LSTM layers to translate text from one language to another.
 
-## 🔍 Özellikler
+## ✨ Features
 
-- Encoder–Decoder mimarisi
-- LSTM tabanlı çeviri modeli
-- Basit metin ön işleme
-- Eğitim sonrası tahmin yapılabilir
+- Encoder–Decoder architecture  
+- LSTM-based translation model  
+- Simple text preprocessing  
+- Prediction capability after training  
 
-## 🚀 Nasıl Çalıştırılır?
+## 🚀 How to Run
 
-1. Reposu klonla:
+1. Clone the repository:
+
    ```bash
    git clone https://github.com/hilaldincc/seq2seq-translator.git
    cd seq2seq-translator
@@ -19,7 +21,9 @@ Bu proje, Python ile geliştirilmiş temel bir Sequence-to-Sequence (seq2seq) ç
 pip install -r requirements.txt
 python main.py
 
-Gerekli Kütüphaneler
+Run the project: python main.py
+
+Dependencies
 Python 3.8+
 TensorFlow veya PyTorch (kullandığın framework'e göre)
 NumPy
